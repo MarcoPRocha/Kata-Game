@@ -32,3 +32,6 @@ juego.addEventListener("click", () => {
         }
     
 })
+
+
+
