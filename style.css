@@ -1,26 +1,36 @@
 body{
-    background-color: #11212d;
-    color: #ee7828;
+    background-image: url(/SebHam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .btn{
-    background-color: #4a5c6a;
-    border-radius: 30%;
-    border-color: black;
-    color: #ee7828;
-    padding: 50px;
+    background: transparent;
+    border-radius: 25px;
+    color: beige;
+    padding: 20px;
     margin: 10px;
     font-size: 40px;
     cursor: pointer;
     text-align: center;
-    transition: all 2s;
+    font-family: 'Cute Font', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
 
+.container :hover {
+    background: rgb(35,107,221);
+    background: linear-gradient(350deg, rgba(35,107,221,1) 0%, rgba(31,0,144,1) 57%);
+    transition: 0.5s;
 }
 
 h1{
     text-align: center;
-    font-size: 50px;
-
+    font-size: 60px;
+    color: beige;
+    text-shadow: 2px 2px 4px #000000; 
+    font-family: 'Cute Font', sans-serif; 
 }
 
 .container{
